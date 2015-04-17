@@ -1,0 +1,29 @@
+{
+  "name": "request-looper",
+  "version": "0.0.1",
+  "description": "Asynchronously loop over HTTP requests, such as those made to a paginated API.",
+  "main": "looper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DanielBrookRoberge/request-looper.git"
+  },
+  "keywords": [
+    "async",
+    "looper",
+    "request",
+    "http",
+    "api",
+    "paginated"
+  ],
+  "author": "Daniel Brook-Roberge",
+  "license": "Mozilla Public License 2.0",
+  "bugs": {
+    "url": "https://github.com/DanielBrookRoberge/request-looper/issues"
+  },
+  "dependencies": {
+    "http-as-promised": "~1.0.0"
+  }
+}
