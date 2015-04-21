@@ -1,10 +1,16 @@
 var $http = require('http-as-promised');
 var combiners = require('./src/combiners.js');
+var finish = require('./src/finishTests.js');
+var reqOpts = require('./src/reqOptions.js');
+var urls = require('./src/reqUrls.js');
 $http = $http.defaults({
   resolve: 'body'
 });
 
 module.exports.combiners = combiners;
+module.exports.finish = finish;
+module.exports.reqOpts = reqOpts;
+module.exports.urls = urls;
 
 module.exports.loop = function(combine, finished, nextUrl, nextOpts) {
   return function() {
